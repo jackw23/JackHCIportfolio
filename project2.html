@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Project2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="project1.html">Project 1</a></li>
+							<li class="active"><a href="project2.html">Project 2</a></li>
+
+
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">February 2023</span>
+									<h1>Project 2: Chatbot</h1>
+									<p></p>
+								</header>
+								<!--  What is a Personal Portfolio Page (P1.3)?
+	Required (see examples in Slack #lab0-web channel)
+•	An overview page that introduces you and provides entrance to the individual project page(s)
+•	An individual project page to keep the personal diary for each of the three course projects
+o	Description of the project and your goal
+o	Your learning and execution process (use images, videos, etc. as evidence to demonstrate each step you take)
+o	Your personal contributions and achievement at each milestone
+o	Your personal reflection (knowledge gained, lessons learned, etc.)-->
+
+
+								<!-- <div class="image main"><img src="images/hkust.jpg" alt="" /></div> -->
+								<p> During this project, my group and I were tasked with creating an AI chatbot to help the general public.
+									We performed needfinding through our surveys to determine what chatbot to make and what features it should have.
+									After building the prototype we performed usability testing and found more areas of improvement. We created a final
+									version of the prototype based on the first round of the user testing and users in the second round of user testing
+									were much more satisfied. Although there still exists issues with the chatbot, we are proud to have made a service
+									that could help people live healthier lives.
+									<div class="image main"><img src="images/p2prompt.jpg" alt="" /></div>
+
+								</p>
+
+								<p> We started by first brainstorming possible chatbots. We drew on our own personal expereinces to come up with chatbots
+									that would be useful to the normal person. We also considered how feasible it was to build the chatbots when narrowing
+									down our list. We brainstormed using a mindmap to organize our ideas. After brainstorming, we decided to create a survey
+									using google forms to see which one of our final contenders: a healthy recipe chatbot, gym chatbot, or panic/first aid
+									chatbot would be most well received by the general public. Me and Tiffany were in charge of the survey.  We asked general questions such as "I struggle to exercise"
+									or "I struggle to eat healthy" as well as more chatbot specific questions like "what features would you like to see on a
+									[insert chatbot]". The results showed that students were most interested in the recipe chatbot. The the most wanted features
+									on the recipe chatbot include being able to list dietary preferences (like being vegan) and to suggest recipes
+									based on available ingredients. Below are some of the statistics from our survey that helped us make our design decision for
+									the chatbot.
+									<div class="image main"><img src="images/p2surveyresults.JPG" alt="" /></div>
+
+								</p>
+								<p>
+									From the survey results, a POVs and personas was created. The first persona was Vanessa, a busy and successful woman who does
+									not have much time to cook. The second persona is Sam, a poor college student who finds it hard to come up with recipes using
+									the limited ingredients he had on-hand. Vanessa's needs would be solved by the ability of the chatbot to quickly come up with
+									vegetarian recipes so she does not have to spend time in her busy schedule to decide what to eat. Sam needs would be met by
+									the chatbot's ability to find recipes based his limited array of ingedients. We also made storyboards for the 2 personas demonstrating
+									how the chatbot would be used by them.
+									
+									<div class="image main"><img src="images/p2personavanessa.JPG" alt="" /></div>
+									<div class="image main"><img src="images/p2personasam.JPG" alt="" /></div>
+
+								</p>
+								<p>
+									The first itereation of the chatbot inlcuded the options to display recipes based on the ingredients available to the user
+									and the user's dietary preferences. We built it using rasa as recommended. I was apart of the team that handled user testing.
+									For the first iteration of the chatbot, we had 5 testers (as recommended in the slides) come and test out the chatbot. 
+									They would perform the thinking out loud protocol to help us understand what a user would expect from this chatbot. We also
+									used the codiscovery protocol to help out our testers when the bot didn't work. The major issues with the bot that we had found
+									from testing included the user not knowing the expected prompts for the bot, having to reload the tab to search a new recipe, 
+									and not having error messages that would tell the user that no recipes were found. Below are the screen and face recordings of one of 
+									our testers.
+									
+									<iframe src="https://drive.google.com/file/d/1SQViOhMB6w10t85D8CkPECiFjwDVAFUB/preview" width="640" height="480" allow="autoplay"></iframe>
+									<iframe src="https://drive.google.com/file/d/1adCtZq_XBVhk2dLoLLhM8kJfJ9bgtOpp/preview" width="640" height="480" allow="autoplay"></iframe>
+								</p>
+
+								<p>
+									We made improvements to the chatbot using the feedback we had gotten from the first round of user testing. Some of the improvements we had made
+									included more clear prompts, being able to search the recipe by food names, error messaging if no recipes are found, and being able to 
+									make mulitple recipe queries without restarting the chatbot. These changes were well received by our second round of user testers. There are some
+									issues left like no mute option for the reading voice. Below is a gif demo of the final version of our chatbot.
+									
+									<div class="image main"><img src="images/v2gif.gif" alt="" /></div>
+								</p>
+
+								<p>
+									My personal contributions included: creating the user surveys, performing the first round of user testing, creating some of the powerpoint
+									slides, and presenting the final presentation. This project was a valuable lesson in time management. Since our team all had midterms, it
+									was crucial that we start early. Especially when you have portions of the project that can only be done once another group member has done theirs.
+									Despite the tight deadlines we were able to work harmoniously. Also, I learned the importance of being prepared for user testing. If you do not
+									had a structured plan for how you users will test, the data that you collect will not be as helpful. Thankfully my first user tester was patient
+									and helped me to understand what and how to test the chatbot. Our team is very proud of our final prototype and this was another valuable 
+									learning experience!
+
+								</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+						
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>1234 Somewhere Road #87257<br />
+							Nashville, TN 00000-0000</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">(000) 000-0000</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">info@untitled.tld</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
